@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: number-conversion
+Version: 0.1
+Summary: For use with num2words. Convert a document with numbers in to a document with just words
+Home-page: https://github.com/robflynnyh/number_conversion
+Author: Rob Flynn
+Author-email: rjflynn2@sheffield.ac.uk
+License: BSD 2-clause
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering :: preprocessing
+
+UNKNOWN
+
