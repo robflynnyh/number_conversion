@@ -37,6 +37,8 @@ def convert_word(text:str) -> str:
     new_text = ''.join(new_split_text)
     # replace " (punctuation) with "(punctuation)"
     new_text = re.sub(r' ([,.!?])', r'\1', new_text)
+    # remove double spaces
+    new_text = re.sub(' +', ' ', new_text)
     return new_text
     
 
