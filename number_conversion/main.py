@@ -20,7 +20,6 @@ def convert_numeric(text:str) -> str:
         return num2words(text, to='year')
     return num2words(text)
 
-
 def convert_word(text:str) -> str:
     if text.isdigit() or text.replace('.', '', 1).isdigit():
         return convert_numeric(text)
@@ -35,7 +34,10 @@ def convert_word(text:str) -> str:
             new_split_text.extend([' ', cur_el, ' ']) # add spaces
         else:
             new_split_text.append(cur_el)
-    return ''.join(new_split_text)
+    new_text = ''.join(new_split_text)
+    # replace " (punctuation) with "(punctuation)"
+    new_text = re.sub(r' ([,.!?])', r'\1', new_text)
+    return new_text
     
 
 def convert_doc(text:str) -> str:
