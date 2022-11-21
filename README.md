@@ -5,4 +5,5 @@ For use with num2words (pls install)
 - use this lib to do just that, it will convert a text document with numbers in to just text
 - I make the assumption that 4 digit numbers i.e 1978 between 1500 and 2100 are dates, otherwise I treat stuff as regular numbers
 - my use-case if for prepping ASR training datasets where you typically don't want numbers in there numeric form
+- won't work for weird edge cases
 - WiP!!!!
