@@ -12,7 +12,10 @@ For use with num2words (pls install)
 
 # usage
 
-> import number_conversion
+> import number_conversion 
+> 
 > text = "it is the year 2022 and this is a 2test string"
+> 
 > text = number_conversion.convert_doc(text)
+> 
 > print(text) # it is the year twenty twenty-two and this is a two test string
